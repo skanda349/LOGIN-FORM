@@ -1,0 +1,73 @@
+body{
+    background:#09e2f4;
+}
+.container{
+    position:absolute;
+    top:10%;
+    left:40%;
+    height:500px;
+    width:300px;
+    box-shadow:0 0 50px;
+    border:none;
+    border-radius:20px;
+}
+h2{
+    font-weight:bold;
+    position:absolute;
+    top:6%;
+    left:28%;
+    letter-spacing:2px;
+    font-size:210%;
+}
+.username{
+    position:absolute;
+    top:25%;
+    left:10%;
+    font-size:120%;
+    font-weight:bold;
+}
+.username input{
+    background:transparent;
+    border:none;
+    border-bottom:1px solid black;
+    width:122%;
+    height:25px;
+    outline:none;
+}
+.password{
+    position:absolute;
+    top:49%;
+    left:10%;
+    font-size:120%;
+    font-weight:bold;
+}
+.password input{
+    background:transparent;
+    border:none;
+    border-bottom:1px solid black;
+    width:122%;
+    height:25px;
+    outline:none;
+}
+.submit{
+    position:absolute;
+    top:80%;
+    left:34%;
+    background:black;
+    color:white;
+    border:none;
+    border-radius:10px;
+    height:40px;;
+    width:80px;
+    text-align:center;
+    cursor:pointer;
+    text-decoration:none;
+    letter-spacing: 1px;
+    font-weight:bold;
+}
+.submit:active{
+    background:grey;
+}
+.submit p{
+    line-height:.5rem;
+}
